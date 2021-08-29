@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 29-08-2021 a las 06:22:57
+-- Tiempo de generación: 29-08-2021 a las 06:44:00
 -- Versión del servidor: 10.4.20-MariaDB
 -- Versión de PHP: 7.4.22
 
@@ -96,7 +96,41 @@ INSERT INTO `productos` (`id`, `fk_categoria`, `nombre`, `talla`, `precio`) VALU
 (27, 7, 'Tenis de Trail Running TR Mujer Rosa', '39', '193000.00'),
 (28, 5, 'BOTAS DE NIEVE CÁLIDAS E IMPERMEABLES - SH100 WARM - NIÑOS', '34/35 ', '50000.00'),
 (29, 5, 'Botas para Alpinismo y Alta Montaña Hombre Simond Alpinism Light Azul Liger', '43', '842000.00'),
-(30, 4, 'CASCO PARA BARRANQUISMO CANYON GRIS AMARILLO', 'S/M', '124000.00');
+(30, 4, 'CASCO PARA BARRANQUISMO CANYON GRIS AMARILLO', 'S/M', '124000.00'),
+(31, 4, 'CASCO DE RUGBY OFFLOAD R500 HOMBRE NEGRO ', 'M', '99000.00'),
+(32, 4, 'CASCO DE CICLISMO MTB ROCKRIDER ST 100 BLANCO', 'M', '100000.00'),
+(33, 4, 'CASCO PARA CICLISMO DE CIUDAD BOL 500 AZUL OSCURO', 'S', '100000.00'),
+(34, 4, 'Casco para roller skateboard monopatín B100 rosado', 'S', '123000.00'),
+(35, 4, 'CASCO PARA CICLISMO DE CIUDAD 100 NEGRO', 'L', '100000.00'),
+(36, 4, 'CASCO PARA ESCALADA Y ALPINISMO - ROCK GRIS', 'L', '230000.00'),
+(37, 4, 'CASCO CON PROTECCIÓN FACIAL INTEGRADA PARA BOXEO OUTSHOCK 100 ADULTO NEGRO ', 'S', '100000.00'),
+(38, 4, 'GORRO PARA CASCO BICICLETA 500 SIN COSTURA NEGRO ', 'M', '34000.00'),
+(39, 4, 'GORRO PARA CORRER NEGRO', 'S', '670000.00'),
+(40, 4, 'GORRO CASCO 500 AQUAFREEZE BLANCO ', 'M', '100000.00'),
+(41, 6, 'Sudadera Domyos 100 Gimnasia Deportiva Bébes 12 Meses - 6 Años Azul oscuro', '2A', '35000.00'),
+(42, 6, 'Sudadera niño niña cálido gimnasia deportiva Domyos 100 Warmy Zip rosa gris', '28', '36000.00'),
+(43, 6, 'Saco Gimnasia Domyos GWSV Bebé 12 Meses - 6 Años Azul / Gris', 'XS', '123000.00'),
+(44, 6, 'Chaqueta de Montaña y Trekking Híbrida NH100 Hombre Caqui', 'S', '89000.00'),
+(45, 6, 'Saco caliente GIMNASIA INFANTIL niña rosado', 'S', '123000.00'),
+(46, 6, 'Sudadera senderismo naturaleza - NH100 Híbrida - Mujer ', 'M', '53000.00'),
+(47, 6, 'Sudadera con cremallera y capucha Fitness negro ', 'L', '154000.00'),
+(48, 6, 'Sudadera Fútbol Kipsta T500 adulto negro carbono', 'L', '85000.00'),
+(49, 6, 'Sudadera Fútbol Kipsta T500 adulto negro carbono', 'L', '56000.00'),
+(50, 6, 'Sudadera Running Kalenji Dry+ Feel Hombre Negro Capucha Transpirable', 'S', '98000.00'),
+(51, 7, 'Botas de Montaña y Trekking Impermeables Niños Quechua MH500 Gris Verde', '29', '0.00'),
+(52, 7, 'Botas de Nieve Apreski Impermeables Mujer Quechua SH520 X-Warm Negro Caña M', '42', '297000.00'),
+(53, 7, 'Tenis de Trail Running TR Mujer Rosa', '36', '200000.00'),
+(54, 7, 'Tenis para correr Trail Running TR Hombre Azul Noche', '35', '398000.00'),
+(55, 7, 'Tenis de niños senderismo tira autoadh CROSSROCK impermeables verdes 28-34', '28', '492000.00'),
+(56, 7, 'Tenis para correr niños At Flex Run Rosa Gris Tira Velcro', '39', '125000.00'),
+(57, 7, 'Zapatos Hombre Areeta Negro', '25', '120000.00'),
+(58, 7, 'Botas ligeras y flexibles de boxeo inglés 500 negro', '43', '320000.00'),
+(59, 7, 'Tenis senderismo mujer FH 500 gris ', '30', '200000.00'),
+(60, 7, 'Tenis de senderismo niños tira autoadherente MH100 azul y rosa 24 a 34', '40', '420000.00'),
+(61, 6, 'Camiseta Polo de Tenis DRY 100 Hombre Azul Oscuro', 'L', '48998.00'),
+(62, 1, 'Guantes Genéricos', 'S', '36000.00'),
+(63, 8, 'Traje especial para natación Adidas', 'L', '290002.00'),
+(64, 2, 'Malla Térmica para Deportistas', 'Grande', '59996.00');
 
 --
 -- Índices para tablas volcadas
@@ -130,7 +164,7 @@ ALTER TABLE `categorias`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
 
 --
 -- Restricciones para tablas volcadas
