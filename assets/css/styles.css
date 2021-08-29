@@ -1,0 +1,118 @@
+@import url(_variables.css);
+
+#table-container {
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+.bg-principal {
+  background-color: var(--color-1);
+}
+
+.bg-thead {
+  background-color: var(--color-2);
+}
+
+body{
+  background-color: #efefef;
+}
+
+#main-p {
+  width: 95%;
+  position: relative;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  margin: 15px auto;
+  min-height: 620px;
+  border-radius: 15px;
+}
+
+nav {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.pri-img {
+  max-width: 300px;
+
+}
+
+#btn-create {
+  font-size: 1.1rem;
+  padding: 8px 30px;
+}
+
+.pri-img {
+  max-width: 300px;
+  animation: scale-img 1.15s ease-in-out alternate;
+}
+
+#btn-create:hover {
+  animation: scale-btn 0.4s ease-in-out alternate;
+}
+
+#principal-table {
+  border-radius: 15px;
+  border: 0.2px;
+}
+
+
+@keyframes scale-btn {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-img {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.09);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#footer-index {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.input-cantidad {
+  max-width: 80px;
+}
+
+.input-categoria {
+  max-width: 250px;
+}
+
+.alert-create {
+  z-index: 2;
+  top: 100px;
+  right: 60px;
+}
+
+#form-content {
+  max-height: 200px;
+  padding: 0px 10px;
+  overflow-y: scroll;
+}
+
+.btn-disabled {
+  cursor: not-allowed;
+}
